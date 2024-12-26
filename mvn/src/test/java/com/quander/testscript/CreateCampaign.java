@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class CreateCampaign {
 	@Test
 	public void createCampaign() {
-		Reporter.log("CreateCampaigh",true);
+		Reporter.log("Ansari have lust on ----- ",true);
 	}
 	
 
