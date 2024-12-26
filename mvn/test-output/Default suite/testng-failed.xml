@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.quander.testscript.CreateAccount">
+      <class name="com.quander.testscript.CreatePurchaseOrder">
         <methods>
-          <include name="createAccount"/>
           <include name="closeBrowser"/>
           <include name="logout"/>
+          <include name="createPurchaseOrder"/>
           <include name="login"/>
           <include name="openBrowser"/>
         </methods>
-      </class> <!-- com.quander.testscript.CreateAccount -->
+      </class> <!-- com.quander.testscript.CreatePurchaseOrder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
